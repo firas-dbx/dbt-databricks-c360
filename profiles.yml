@@ -6,7 +6,7 @@ dbdemos_dbt_c360:
       databricks_job:
         type: databricks
         method: http
-        catalog: "firasf_catalog"
+        catalog: "firasf_catalogh"
         schema: "dbt"
         host: "e2-demo-field-eng.cloud.databricks.com"
         http_path: "sql/protocolv1/o/1444828305810485/0109-190933-egttlwwt"
