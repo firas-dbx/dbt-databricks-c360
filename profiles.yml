@@ -1,15 +1,13 @@
 dbdemos_dbt_c360:
-  target: outputs
+  target: databricks_job
   outputs:
-    target: databricks_job
-    outputs:
-      databricks_job:
-        type: databricks
-        method: http
-        catalog: "firasf_catalog"
-        schema: "dbt"
-        host: "e2-demo-field-eng.cloud.databricks.com"
-        http_path: "sql/protocolv1/o/1444828305810485/0109-190933-egttlwwt"
-        token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
+    databricks_job:
+      type: databricks
+      method: http
+      catalog: "firasf_catalog"
+      schema: "dbt"
+      host: "e2-demo-field-eng.cloud.databricks.com"
+      http_path: "sql/protocolv1/o/1444828305810485/0109-190933-egttlwwt"
+      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
 
 
