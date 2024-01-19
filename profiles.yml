@@ -7,7 +7,7 @@ dbdemos_dbt_c360:
       catalog: "firasf_catalog"
       schema: "dbt"
       host: "e2-demo-field-eng.cloud.databricks.com"
-      http_path: "sql/protocolv1/o/1444828305810485/0109-190933-egttlwwt"
+      http_path: "sql/protocolv1/o/1444828305810485/0601-182128-dcbte59m"
       token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
 
 
