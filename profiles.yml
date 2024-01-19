@@ -1,5 +1,5 @@
 dbdemos_dbt_c360:
-  target: local
+  target: outputs
   outputs:
     target: databricks_job
     outputs:
